@@ -1,4 +1,4 @@
---Create tables
+--Create the Table 
 CREATE TABLE [dbo].[urban_basket_sales_data](
 	[FirstName] [nvarchar](50) NOT NULL,
 	[LastName] [nvarchar](50) NOT NULL,
@@ -27,3 +27,4 @@ CREATE TABLE [dbo].[urban_basket_sales_data](
 	[Promotion] [nvarchar](50) NULL,
 	[OrderStatus] [nvarchar](50) NOT NULL
 ) ON [PRIMARY]
+--Alternatively I imported my csv as a flat file instead of manually creating the database.
